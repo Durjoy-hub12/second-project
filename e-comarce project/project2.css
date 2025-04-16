@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width:100% ;
+    height: 100vh;
+}
+.logu{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    
+}
+.logu img{
+  text-shadow: 2px 2px 30px rgba(0,0,0,0,);  
+  height: 20%;
+  width: 20%;
+}
+.searcharea{
+    position: fixed;
+    right: 90px;
+    top: 50px;
+    width: 170px;
+    height: 45px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    box-shadow: 2px 2px 30px rgba(167, 158, 245,0.2);
+    box-shadow: 0.2;
+    box-sizing: border-box;
+    z-index: 1;
+    border: 1px solid rgb(167, 158, 245, 0.1);
+    
+}
+.searcharea input{
+    width: 90px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+    color: #1f1f1f;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 0px 10px ;
+}
+.searcharea input::placeholder{
+    color: #1f1f1f;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+.section1{
+    position: absolute;
+    left:25%;
+    top: 80%;
+    transform: translate(-15%,-50%);
+}
+.section1 img{
+    height: 500px;
+    width : 500px;
+    box-shadow: 4px 4px 50px rgba(28, 28, 30, 0.8);
+}
+.section1Button{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-90%,-50%);
+}
+.section1Button h1,h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 60px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.08);
+    letter-spacing: 3px;
+    color: #3D3D4A;
+    text-transform: uppercase;
+}
+span{
+    color: rgb(67, 83, 218);
+}
+.section1Button h1{
+    letter-spacing: 28px;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% / 50% 50% 50%;
+    margin-top: 30px;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1 rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+
+}
+.btn:hover{
+    background-color: rgb(77, 85, 245);
+    transition-duration: 0.5s;
+}
+.iconarea a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+.iconarea{
+    position: fixed;
+    left: 30px;
+    top:60%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    padding: 5px 0px ;
+    z-index: 1;
+    
+}
+.iconarea a i{
+    color: #3D3D4A;
+    
+}
+.iconarea a:hover .fa-facebook-f{
+    color: #3b5998
+}
+.iconarea a:hover .fa-twitter{
+    color:#00acee;
+}
+.iconarea a:hover .fa-instagram{
+    color: rgb(129, 40, 40);
+}
+.iconarea a:hover .fa-youtube{
+    color: red;
+}
+
+
+.productsection{
+    width: 85%;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 40px rgba(167, 158, 245,0.2);
+    display:flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: 20%;
+    position: relative;
+    background-size: 1000px;
+    border:10px ;
+}
+.productsection h3{
+    margin: 20px;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.05);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #323543;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin :10px 0px;
+    width: 100%;
+}
+.productsbox{
+    width: 250px;
+    height: 330px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px 30px ;
+}
+.productsbox img{
+    width: 200x;
+}
+.productsbox p{
+    color: #08000070;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.9rem;
+    letter-spacing: 0.5;
+    
+}
+.productsbox a{
+    color: #2c2c2c;
+    font-family: poopines;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.buybtn{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+    border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+    background: linear-gradient(120deg,#6b60ec 20%,#a166f4);
+    color: #ffffff;
+    display:none;
+    animation: fade 0.2s;
+    
+}
+.productsbox:hover .buybtn{
+   display: flex;
+}
+.productsbox:hover {
+    box-shadow: 6px 6px 60px rgba(2, 2, 5, 0.1);
+    background-color: #ffffff;
+}
+.productsbox:hover a:last-child{
+    color: #fff;
+    transition: all ease 0.3s;
+}
+
+
+.about{
+    display: flex;
+    width: 60%;
+    margin: 50px auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    margin-top:60px;
+}
+.aboutbox{
+    width: 50%;
+    font-family: serif;
+    
+}
+.aboutimg img{
+   width: 80%;
+   height: 80%;
+   margin-left: 100px;
+   margin-top: 70px;
+  object-fit: contain;
+  border-radius: 5% 5% 5% 5% / 20% 20% 20% 20%;
+
+ }
+
+
+.aboutbox h1{
+    color: #333333;
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin: 0px;
+    margin-top: 100px;
+}
+.aboutbox h4{
+    color: #333333;
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.aboutbox p{
+    font-size: 1rem;
+    color: #bdbdbd;
+    letter-spacing: 0.5px;
+}
+.tt{
+    color: #1f4452;
+    letter-spacing: 12px;
+}
+.notification{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0,0,0,0.03);
+}
+.notification h3{
+    font-size: 2rem;
+    color :rgba(56,56,56);
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+.email{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 4% 4% 4% 4% / 30% 30% 30% 30%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    box-shadow: 3px 6px 40px rgba(18, 18, 19, 0.5);
+    margin-top: 30px;
+}
+.email input{
+    width: 100%;
+    height: 40px;
+    border:none;
+    outline: none;
+    background-color: transparent;
+
+}
+.notibutton{
+    color: #fff;
+    width: 120px;
+    height: 40px;
+    background-color: #080808;
+    border-radius: 20px;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-transform: uppercase;
+   font-weight: bold;
+   box-shadow: 2px 2px 30px rgba(80, 75, 75, 0.1);
+   font-size: 1rem;
+}
+.email input::placeholder{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+.notibutton:hover{
+    color: #050101;
+    background-color:#3455f7;
+    transition-duration: 0.3s;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer p{
+    color: whitesmoke;
+    text-align: center;
+}
